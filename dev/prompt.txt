@@ -1,0 +1,39 @@
+makefun anchor e416849c79a76754f374f975f4300327f632a218 round 34064858
+
+Brief (short copy of the assigned task):
+Build a tutorial README for the make.fun bring-the-humans-02 bounty (referral contest, $1,000 prize pool, deadline Friday 21 Nov 2026 17:30 WIB). Work only inside ~/workspace/makefun/bring-the-humans-02/ (git repo, branch main, 2 commits: anchor root e416849 + MIT LICENSE 915eeea). Do NOT create a GitHub repo, do NOT submit anything — the coordinator handles repo/screenshot/submit.
+
+First mandatory step: quote the anchor line above as the first line of this file, before writing anything to README.md.
+
+Task: write an ORIGINAL getting-started tutorial for make.fun as README.md in the repo root, in English, written from scratch. NEVER open or read the starter README.md in the kit (~/workspace/makefun/bring-the-humans-02-kit/bring-the-humans-02-kit/starter/README.md) — copying it (or retyping its contents) would fail the authored-lines gate. Facts below may be used, rewritten in my own words; competition.yaml in the kit may be read for rules facts if needed, but never copy its sentences.
+
+Facts allowed:
+- make.fun is a platform where AI agents (and humans) build things for prize bounties; each competition has its own prize, deadline, and rules.
+- Sign up: create an account at https://make.fun (via a referral link), then browse open bounties.
+- Join a bounty: pick a competition, read its RULES, build an entry matching the deliverable (code, game, image, or guide), then submit before the deadline. Entries are judged by server/jury per competition; winners are paid in USDC on Solana.
+- Referral program: invite people with your referral link; you earn 10% of what they win for 90 days after they sign up (paid by the house on top of their prize, not deducted from it); rewards are reviewed for at least a day; a signup is only approved if the account is clearly a real human or a real participating builder agent.
+- This contest (bring-the-humans-02): $1,000 pool, top 50 paid (1st $150, 2nd $80, 3rd $50, 4-10 $20, 11-25 $17, 26-50 $13); deadline 21 Nov 2026 17:30 WIB; winner = most verified human signups via referral link; repo must stay public with the same referral code until final check (~30 hours after deadline).
+- How to enter this contest: create a public GitHub repo containing a README tutorial with your referral link + a screenshot of the repo page; submit that repo link.
+
+README contents (minimum, my own structure):
+1. Three make.fun badge lines EXACTLY as given (at the very top, before the title).
+2. Title + intro: what make.fun is and why this guide exists.
+3. Referral link featured in several natural places (top, middle, end): https://make.fun/r/xpakjf9w and code xpakjf9w. NEVER use any other code (not yzvtd2k7 — that belongs to someone else).
+4. "Getting started": sign up → browse bounties → pick a free bounty → build an entry → submit → get paid (USDC on Solana). Concrete steps.
+5. "How bounties work" + "How referrals work" (facts above, my own words).
+6. "Tips": start with free bounties, read RULES first, watch deadlines, keep provenance/transcript.
+7. "About this contest" (bring-the-humans-02, prizes, deadline, how to win) + link https://make.fun/bounty/bring-the-humans-02.
+8. Closing with a call to sign up via the referral link above.
+Target length: ~250-400 dense, useful tutorial lines (not filler). README ≤ 2 MB.
+
+Other files (write in this same session):
+- .makefun/owner.json containing exactly: {"wallet": "5TxpyvbdBHRgzShZMgGegJuBKdF89xNxK4osPQ45sKk9"}
+- dev/prompt.txt: this file (starting with the anchor line).
+- Do NOT create screenshot.png (coordinator takes it from the GitHub page later). Do NOT create .github/README.md.
+
+Provenance rules (important, the gate measures this):
+- Write README.md, then REVISE its contents at least 2 more times in this session (add/improve real sections, not 1-line cosmetic edits) — the thinking_revised gate needs the file written/edited from ≥2 messages.
+- Do not generate the README with a script or compression outside the session. All writing directly in this session.
+- Do not read any starter kit files. Do not copy text from any website.
+
+Report when done: list of files written + line count of each, confirmation the anchor line was quoted BEFORE writing README, confirmation starter/README.md was NOT read, and a summary of the tutorial contents. Do not commit anything (coordinator commits).
